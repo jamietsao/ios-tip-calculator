@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D8750551A49439400F3D2E2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8750541A49439400F3D2E2 /* SettingsViewController.swift */; };
 		7DA1D2031A463A11007A4ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1D2021A463A11007A4ABB /* AppDelegate.swift */; };
 		7DA1D2051A463A11007A4ABB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1D2041A463A11007A4ABB /* ViewController.swift */; };
 		7DA1D2081A463A11007A4ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DA1D2061A463A11007A4ABB /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D8750541A49439400F3D2E2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		7DA1D1FD1A463A11007A4ABB /* JTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA1D2011A463A11007A4ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DA1D2021A463A11007A4ABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D8750561A4943CB00F3D2E2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7DA1D2041A463A11007A4ABB /* ViewController.swift */,
+				7D8750541A49439400F3D2E2 /* SettingsViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		7DA1D1F41A463A11007A4ABB = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +88,8 @@
 		7DA1D1FF1A463A11007A4ABB /* JTip */ = {
 			isa = PBXGroup;
 			children = (
+				7D8750561A4943CB00F3D2E2 /* View Controllers */,
 				7DA1D2021A463A11007A4ABB /* AppDelegate.swift */,
-				7DA1D2041A463A11007A4ABB /* ViewController.swift */,
 				7DA1D2061A463A11007A4ABB /* Main.storyboard */,
 				7DA1D2091A463A11007A4ABB /* Images.xcassets */,
 				7DA1D20B1A463A11007A4ABB /* LaunchScreen.xib */,
@@ -214,6 +225,7 @@
 			files = (
 				7DA1D2051A463A11007A4ABB /* ViewController.swift in Sources */,
 				7DA1D2031A463A11007A4ABB /* AppDelegate.swift in Sources */,
+				7D8750551A49439400F3D2E2 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JTip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JTip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -405,6 +419,7 @@
 				7DA1D21E1A463A11007A4ABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DA1D21F1A463A11007A4ABB /* Build configuration list for PBXNativeTarget "JTipTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +428,7 @@
 				7DA1D2211A463A11007A4ABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
