@@ -39,7 +39,6 @@ class ViewController: UIViewController {
         
         // init controls & labels
         tipSlider.value = Float(defaultTipPercentage)
-        
         selectedTipLabel.text = String(format: "%d%%", defaultTipPercentage)
         partySizeControl.selectedSegmentIndex = defaultPartySize - 1;
         

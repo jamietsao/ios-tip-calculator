@@ -50,7 +50,6 @@ class SettingsViewController: UIViewController {
         
         // get round up setting
         let round = roundUpPartyAmountSwitch.on
-        println("on round up: \(round)")
         
         // save to user defaults
         let defaults = NSUserDefaults.standardUserDefaults()
